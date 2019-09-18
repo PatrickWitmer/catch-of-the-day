@@ -1,8 +1,6 @@
 # Catch of the Day 
 
-## A React Project
-
-My first full React project.  
+## A fishy React project.  
 
 $ `npm install`  
 
