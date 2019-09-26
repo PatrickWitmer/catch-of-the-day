@@ -2,6 +2,6 @@
 
 ## A fishy React project.  
 
-$ `npm install`  
+⍩ `npm install`  
 
-$ `npm start`  
+⍩ `npm start`  
