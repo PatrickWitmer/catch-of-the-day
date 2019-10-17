@@ -18,8 +18,9 @@ class App extends React.Component {
       state: 'fishes'
     });
   }
+  // Prevent memory leak.
   componentWillUnmount() {
-    console.log('unmounteededed');
+    base.removeBinding(this.ref);
   }
 
   addFish = (fish) => {
