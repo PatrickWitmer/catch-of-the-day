@@ -15,8 +15,9 @@ class Order extends React.Component {
       </li>
     }
     return <li key={key}>
-      {count} lbs {fish.name} 
+      {count} lbs {fish.name}
       {formatPrice(count + fish.price)}
+      <button onClick={() => this.props.removeFromOrder(key)}>&times;</button>
     </li>;
   }
   render() {
@@ -34,7 +35,8 @@ class Order extends React.Component {
       <div className="order-wrap">
           <h2>Order</h2>
           <ul className="order">
-            {orderIds.map(this.renderOrder)}</ul>
+            {orderIds.map(this.renderOrder)}
+          </ul>
           <div className="total">
             Total:
             <strong> {formatPrice(total)}</strong>
