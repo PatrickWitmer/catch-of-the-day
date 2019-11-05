@@ -578,6 +578,8 @@ button.github,
 input[type=submit].github,
 button.facebook,
 input[type=submit].facebook,
+button.google,
+input[type=submit].google,
 button.twitter,
 input[type=submit].twitter {
   border: 0;
@@ -597,6 +599,10 @@ input[type=submit].github:after {
 }
 button.facebook,
 input[type=submit].facebook {
+  background: #176BEF;
+}
+button.google,
+input[type=submit].google {
   background: #3864a3;
 }
 button.facebook:after,
