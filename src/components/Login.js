@@ -1,12 +1,16 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Login = (props) => (
-  <nav className='login'>
+const Login = props => (
+  <nav className="login">
     <h2>Inventory Login</h2>
     <p>Sign in to manage your store's invetory.</p>
-    <button className="github" onClick={() => props.authenticate('Github')}>Login with Github</button>
-    <button className="google" onClick={() => props.authenticate('Google')}>Login with Google</button>
+    <button className="github" onClick={() => props.authenticate('Github')}>
+      Login with Github
+    </button>
+    <button className="google" onClick={() => props.authenticate('Google')}>
+      Login with Google
+    </button>
   </nav>
 );
 
@@ -15,4 +19,3 @@ Login.propTypes = {
 };
 
 export default Login;
-
