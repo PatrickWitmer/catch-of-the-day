@@ -2,7 +2,7 @@
 
 ## A fishy React project.
 
-[View live example](https://cotd.patrick18.now.sh)
+[View live example](https://cotd-icky-pin.now.sh/)
 
 Clone then run:
 
