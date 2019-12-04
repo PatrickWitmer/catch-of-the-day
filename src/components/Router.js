@@ -5,7 +5,7 @@ import App from './App';
 import NotFound from './NotFound';
 
 const Router = () => (
-  <HashRouter>
+  <HashRouter basename="/catch-of-the-day">
     <Switch>
       <Route exact path="/" component={StorePicker} />
       <Route path="/store/:storeId" component={App} />
