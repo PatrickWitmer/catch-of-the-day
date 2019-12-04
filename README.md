@@ -4,7 +4,7 @@
 
 Course by Wes Bos.
 
-[View live example](https://cotd-icky-pin.now.sh/)
+[View live example](https://witmerdesigns.com/catch-of-the-day/)
 
 Clone then run:
 
