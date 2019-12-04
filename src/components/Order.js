@@ -72,7 +72,7 @@ class Order extends React.Component {
           {orderIds.map(this.renderOrder)}
         </TransitionGroup>
         <div className="total">
-          Tttttotal:
+          Total:
           <strong> {formatPrice(total)}</strong>
         </div>
       </div>
